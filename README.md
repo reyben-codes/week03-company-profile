@@ -316,3 +316,19 @@ The errors I encountered were also an important part of the activity. Problems s
 After finishing this activity, I now have a clearer understanding of how Laravel organizes a web application and why MVC is useful in development. This project may only be a company profile website, but the concepts I learned can also be applied when developing larger and more complicated systems. For example, features such as user accounts, databases, inventory management, and other modules can have their own controllers, models, and views instead of putting everything in one place. I still have a lot to learn about Laravel, especially when it comes to more advanced features, but this activity gave me a good foundation and made me more comfortable with how routes, controllers, and Blade views work together.
 
 Note: The Reflection above is paraphrased using an AI tool but the idea inside are all made by me.
+
+## References
+
+Laravel. (n.d.). *Laravel documentation*. `https://laravel.com/docs`
+
+Laravel. (n.d.). *Controllers*. `https://laravel.com/docs/12.x/controllers`
+
+Laravel. (n.d.). *Routing*. `https://laravel.com/docs/12.x/routing`
+
+Laravel. (n.d.). *Blade templates*. `https://laravel.com/docs/12.x/blade`
+
+PHP Documentation Group. (n.d.). *PHP manual*. `https://www.php.net/manual/en/`
+
+MDN Web Docs. (n.d.). *CSS: Cascading Style Sheets*. `https://developer.mozilla.org/en-US/docs/Web/CSS`
+
+Vite. (n.d.). *Vite guide*. `https://vite.dev/guide/`
