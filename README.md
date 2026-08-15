@@ -110,3 +110,17 @@ Route::get('/services', [CompanyController::class, 'services'])->name('services'
 
 Route::get('/contact', [CompanyController::class, 'contact'])->name('contact');
 ```
+
+## Controllers
+
+Controllers are responsible for handling the application's request logic and connecting routes to the appropriate views. In this project, the main controller is `CompanyController`.
+
+The controller is located at:
+
+```text
+app/
+└── Http/
+    └── Controllers/
+        └── CompanyController.php
+```
+
