@@ -88,3 +88,25 @@ HTML Response
    │
    ▼
 Browser
+```
+
+## Laravel Routing
+
+Laravel routing determines how the application responds to requests made to specific URLs. In this project, the routes are defined in `routes/web.php`.
+
+### Route Definitions
+
+The project uses `GET` requests and named routes to connect each URL to the appropriate method in `CompanyController`.
+
+```php
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CompanyController;
+
+Route::get('/', [CompanyController::class, 'home'])->name('home');
+
+Route::get('/about', [CompanyController::class, 'about'])->name('about');
+
+Route::get('/services', [CompanyController::class, 'services'])->name('services');
+
+Route::get('/contact', [CompanyController::class, 'contact'])->name('contact');
+```
