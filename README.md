@@ -124,3 +124,19 @@ app/
         └── CompanyController.php
 ```
 
+## Blade Templating Engine
+
+Blade is Laravel's templating engine used to create the user interface of the application. In this project, Blade is used to organize the website into reusable layouts, components, and individual page views.
+
+### Blade Layout
+
+The main layout is located at:
+
+```text
+resources/
+└── views/
+    └── layouts/
+        └── app.blade.php
+```
+
+
