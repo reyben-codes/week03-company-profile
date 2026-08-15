@@ -139,4 +139,46 @@ resources/
         └── app.blade.php
 ```
 
+## Laravel Folder Structure
 
+Laravel follows an organized project structure where files are grouped according to their purpose. The following folders and files are important to this project:
+
+```text
+week03-company-profile/
+│
+├── app/
+│   └── Http/
+│       └── Controllers/
+│           └── CompanyController.php
+│
+├── public/
+│   └── build/
+│       └── ...
+│
+├── resources/
+│   ├── css/
+│   │   └── app.css
+│   │
+│   └── views/
+│       ├── components/
+│       │   ├── footer.blade.php
+│       │   └── navbar.blade.php
+│       │
+│       ├── layouts/
+│       │   └── app.blade.php
+│       │
+│       └── pages/
+│           ├── home.blade.php
+│           ├── about.blade.php
+│           ├── services.blade.php
+│           └── contact.blade.php
+│
+├── routes/
+│   └── web.php
+│
+├── .env
+├── artisan
+├── composer.json
+├── package.json
+└── README.md
+```
