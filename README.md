@@ -236,4 +236,5 @@ Shows the `CompanyController` containing the methods used by the company profile
 
 Screenshots of the website on different screen sizes may also be included to demonstrate that the website adapts to desktop, tablet, and mobile displays.
 
-<img width="763" height="1074" alt="image" src="https://github.com/user-attachments/assets/def138ac-aba0-46d7-84e8-1f57d773cc98" />
+<img width="928" height="2047" alt="05c93c4e-5230-4e4d-a967-4830c4ef1caf" src="https://github.com/user-attachments/assets/d66a2235-e48b-4af8-be81-4110e9102c56" />
+
