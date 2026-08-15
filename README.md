@@ -238,3 +238,68 @@ Screenshots of the website on different screen sizes may also be included to dem
 
 <img width="928" height="2047" alt="05c93c4e-5230-4e4d-a967-4830c4ef1caf" src="https://github.com/user-attachments/assets/d66a2235-e48b-4af8-be81-4110e9102c56" />
 
+## Problems Encountered
+
+During the development of the NexaTech Solutions company profile website, several problems were encountered while configuring Laravel, implementing the MVC structure, and applying the website styling.
+
+### 1. CompanyController Class Not Found
+
+One of the initial errors encountered was:
+
+```text
+Target class [App\Http\Controllers\CompanyController] does not exist.
+```
+
+This happened because Laravel could not locate the CompanyController referenced by the routes. The controller and its connection to the routes had to be checked and properly configured.
+
+### 2. Missing Controller.php File
+
+```text
+include(C:\Users\Reyben\week03-company-profile\vendor\composer/../../app/Http/Controllers/Controller.php):
+Failed to open stream: No such file or directory
+```
+
+This prevented the CompanyController from properly extending the base controller class.
+
+### 3. Undefined $services Variable
+
+```text
+Undefined variable $services
+```
+
+The Blade view expected a `$services` variable, but the required data was not being properly passed from the controller to the view.
+
+## Solutions
+
+The following solutions were applied to resolve the problems encountered during the development of the project.
+
+### 1. CompanyController Class Not Found
+
+The `CompanyController` file and namespace were checked to make sure Laravel could properly locate the controller. The controller was placed inside `app/Http/Controllers/` and imported correctly in `routes/web.php`.
+
+```php
+use App\Http\Controllers\CompanyController;
+```
+
+### 2. Undefined $services Variable
+
+The $services variable was defined inside the services() method of CompanyController. The service data was then passed to the Services Blade view using compact().
+
+```php
+return view('pages.services', compact('services'));
+```
+
+This allowed services.blade.php to access the $services variable and dynamically display each service using the @foreach directive.
+
+### 3. Missing Controller.php File
+
+The project encountered an error because the base `Controller.php` file was missing from the `app/Http/Controllers/` directory.
+
+To resolve the problem, a new `Controller.php` file was created inside:
+
+```text
+app/Http/Controllers/Controller.php
+```
+
+After creating the missing base controller, CompanyController was able to extend the Controller class properly.
+
