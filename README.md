@@ -182,3 +182,58 @@ week03-company-profile/
 ├── package.json
 └── README.md
 ```
+
+## Screenshots
+
+Screenshots are included to document the implemented Laravel application and demonstrate the final appearance and functionality of the website.
+
+The following screenshots will be included:
+
+### Home Page
+
+Shows the NexaTech Solutions homepage, including the hero/banner section, company introduction, feature cards, and call-to-action section.
+
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/ac3726ab-64e1-4347-a547-31a645b1b240" />
+
+
+### About Page
+
+Shows the company's history, mission, vision, core values, and team information.
+
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/5f6a1707-54cb-4e8c-8b52-3c86d6a56b2a" />
+
+
+### Services Page
+
+Shows the services dynamically rendered from the `$services` data provided by `CompanyController`.
+
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/0573f06e-9ee8-4c1e-a817-5554df847bdd" />
+
+
+### Contact Page
+
+Shows the company's contact information and the UI-only contact form.
+
+<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/4ea9838f-b68d-4d92-b05d-83a9e71481c7" />
+
+
+### Routes
+
+Shows the routes defined in `routes/web.php` and how the four main pages are connected to `CompanyController`.
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2b614365-9161-4603-a178-0676485b04d6" />
+
+
+### Controller
+
+Shows the `CompanyController` containing the methods used by the company profile pages and the dynamic services data.
+
+<img width="1567" height="953" alt="image" src="https://github.com/user-attachments/assets/f765c546-8fef-46bf-8a8e-d446d9bda486" />
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/06106864-012e-405f-841a-70ff79986672" />
+
+
+### Responsive Design
+
+Screenshots of the website on different screen sizes may also be included to demonstrate that the website adapts to desktop, tablet, and mobile displays.
+
+<img width="763" height="1074" alt="image" src="https://github.com/user-attachments/assets/def138ac-aba0-46d7-84e8-1f57d773cc98" />
