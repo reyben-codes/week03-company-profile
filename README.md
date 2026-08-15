@@ -38,3 +38,53 @@ The objectives of this project are to:
 - Implement dynamic service data passed from the controller to the Services page.
 - Create a clean, responsive, and professional user interface.
 - Demonstrate how routes, controllers, and Blade views work together in a Laravel application.
+
+  ## MVC Architecture
+
+This project uses the **Model-View-Controller (MVC)** architecture provided by Laravel. MVC separates the different responsibilities of the application into organized parts, making the code easier to manage, understand, and maintain.
+
+### What is MVC?
+
+MVC stands for:
+
+- **Model** — Handles the application's data and data-related operations.
+- **View** — Handles what the user sees. In this project, the views are created using Laravel Blade templates.
+- **Controller** — Handles application logic and connects the routes to the appropriate views.
+
+### Why Laravel Uses MVC
+
+Laravel uses the MVC architecture to separate the application's responsibilities. Instead of placing routing, application logic, and HTML code in one place, Laravel organizes them into different parts of the project.
+
+In this project, the routes are defined in `routes/web.php`, the page-handling logic is placed in `CompanyController`, and the user interface is created using Blade views.
+
+### Advantages of MVC
+
+Using MVC provides several advantages:
+
+- **Separation of concerns** — Different parts of the application have different responsibilities.
+- **Better organization** — Files and functionality are organized according to their purpose.
+- **Maintainability** — Changes to one part of the application can be made without unnecessarily affecting other parts.
+- **Reusability** — Blade layouts and components can be reused across multiple pages.
+- **Scalability** — The organized structure can make larger applications easier to develop and maintain.
+
+### MVC Request Flow
+
+The basic request flow of this Laravel application is:
+
+```text
+Browser
+   │
+   ▼
+Route (routes/web.php)
+   │
+   ▼
+CompanyController
+   │
+   ▼
+Blade View
+   │
+   ▼
+HTML Response
+   │
+   ▼
+Browser
