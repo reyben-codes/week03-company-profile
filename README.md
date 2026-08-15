@@ -332,3 +332,9 @@ PHP Documentation Group. (n.d.). *PHP manual*. `https://www.php.net/manual/en/`
 MDN Web Docs. (n.d.). *CSS: Cascading Style Sheets*. `https://developer.mozilla.org/en-US/docs/Web/CSS`
 
 Vite. (n.d.). *Vite guide*. `https://vite.dev/guide/`
+
+### Architecture Diagram
+
+The following diagram illustrates the request flow of the NexaTech Solutions Laravel application.
+
+<img width="1536" height="1024" alt="MVC ARCHITECTURE DIAGRAM" src="https://github.com/user-attachments/assets/70a08924-4974-4f67-97de-d74415edf9d0" />
