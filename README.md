@@ -24,3 +24,17 @@ The website contains four main pages:
 - **About** — Provides information about the company's history, mission, vision, values, and team.
 - **Services** — Displays the company's services using dynamic data passed from the controller.
 - **Contact** — Provides company contact information and a UI-only contact form.
+
+## Objectives
+
+The objectives of this project are to:
+
+- Develop a multi-page company profile website using Laravel.
+- Apply the Model-View-Controller (MVC) architecture in a Laravel application.
+- Configure Laravel routes using `routes/web.php`.
+- Create and use a `CompanyController` to handle the application pages.
+- Create reusable Blade layouts and components for the website.
+- Use Blade directives such as `@extends`, `@section`, `@yield`, `@include`, and `@foreach`.
+- Implement dynamic service data passed from the controller to the Services page.
+- Create a clean, responsive, and professional user interface.
+- Demonstrate how routes, controllers, and Blade views work together in a Laravel application.
